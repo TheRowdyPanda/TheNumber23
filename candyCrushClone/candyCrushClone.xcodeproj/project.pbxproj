@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC7B530919096CA90038A6C5 /* MyScene2.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7B530819096CA90038A6C5 /* MyScene2.m */; };
+		EC7B530C19097F0A0038A6C5 /* startScene.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7B530B19097F0A0038A6C5 /* startScene.m */; };
+		EC8CB52B190255370000CB76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC8CB52A190255370000CB76 /* Foundation.framework */; };
+		EC8CB52D190255370000CB76 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC8CB52C190255370000CB76 /* CoreGraphics.framework */; };
+		EC8CB52F190255370000CB76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC8CB52E190255370000CB76 /* UIKit.framework */; };
+		EC8CB531190255370000CB76 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC8CB530190255370000CB76 /* SpriteKit.framework */; };
+		EC8CB537190255370000CB76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC8CB535190255370000CB76 /* InfoPlist.strings */; };
+		EC8CB539190255370000CB76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8CB538190255370000CB76 /* main.m */; };
+		EC8CB53D190255370000CB76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8CB53C190255370000CB76 /* AppDelegate.m */; };
+		EC8CB540190255370000CB76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC8CB53E190255370000CB76 /* Main.storyboard */; };
+		EC8CB543190255370000CB76 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8CB542190255370000CB76 /* ViewController.m */; };
+		EC8CB546190255370000CB76 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8CB545190255370000CB76 /* MyScene.m */; };
+		EC8CB548190255370000CB76 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = EC8CB547190255370000CB76 /* Spaceship.png */; };
+		EC8CB54A190255370000CB76 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8CB549190255370000CB76 /* Images.xcassets */; };
+		EC8CB551190255370000CB76 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC8CB550190255370000CB76 /* XCTest.framework */; };
+		EC8CB552190255370000CB76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC8CB52A190255370000CB76 /* Foundation.framework */; };
+		EC8CB553190255370000CB76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC8CB52E190255370000CB76 /* UIKit.framework */; };
+		EC8CB55B190255370000CB76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC8CB559190255370000CB76 /* InfoPlist.strings */; };
+		EC8CB55D190255370000CB76 /* candyCrushCloneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8CB55C190255370000CB76 /* candyCrushCloneTests.m */; };
+		EC91435519495B6C008C94F7 /* Number_6.png in Resources */ = {isa = PBXBuildFile; fileRef = EC91435019495B6C008C94F7 /* Number_6.png */; };
+		EC91435619495B6C008C94F7 /* Number_7.png in Resources */ = {isa = PBXBuildFile; fileRef = EC91435119495B6C008C94F7 /* Number_7.png */; };
+		EC91435719495B6C008C94F7 /* Number_8.png in Resources */ = {isa = PBXBuildFile; fileRef = EC91435219495B6C008C94F7 /* Number_8.png */; };
+		EC91435819495B6C008C94F7 /* Number_9.png in Resources */ = {isa = PBXBuildFile; fileRef = EC91435319495B6C008C94F7 /* Number_9.png */; };
+		EC91435919495B6C008C94F7 /* Number_10.png in Resources */ = {isa = PBXBuildFile; fileRef = EC91435419495B6C008C94F7 /* Number_10.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC8CB554190255370000CB76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC8CB51F190255360000CB76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC8CB526190255370000CB76;
+			remoteInfo = candyCrushClone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC7B530719096CA90038A6C5 /* MyScene2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScene2.h; sourceTree = "<group>"; };
+		EC7B530819096CA90038A6C5 /* MyScene2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScene2.m; sourceTree = "<group>"; };
+		EC7B530A19097F0A0038A6C5 /* startScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = startScene.h; sourceTree = "<group>"; };
+		EC7B530B19097F0A0038A6C5 /* startScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = startScene.m; sourceTree = "<group>"; };
+		EC8CB527190255370000CB76 /* candyCrushClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = candyCrushClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8CB52A190255370000CB76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC8CB52C190255370000CB76 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EC8CB52E190255370000CB76 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EC8CB530190255370000CB76 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		EC8CB534190255370000CB76 /* candyCrushClone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "candyCrushClone-Info.plist"; sourceTree = "<group>"; };
+		EC8CB536190255370000CB76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC8CB538190255370000CB76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC8CB53A190255370000CB76 /* candyCrushClone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "candyCrushClone-Prefix.pch"; sourceTree = "<group>"; };
+		EC8CB53B190255370000CB76 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC8CB53C190255370000CB76 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC8CB53F190255370000CB76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC8CB541190255370000CB76 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC8CB542190255370000CB76 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC8CB544190255370000CB76 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		EC8CB545190255370000CB76 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		EC8CB547190255370000CB76 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		EC8CB549190255370000CB76 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC8CB54F190255370000CB76 /* candyCrushCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = candyCrushCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8CB550190255370000CB76 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EC8CB558190255370000CB76 /* candyCrushCloneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "candyCrushCloneTests-Info.plist"; sourceTree = "<group>"; };
+		EC8CB55A190255370000CB76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC8CB55C190255370000CB76 /* candyCrushCloneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = candyCrushCloneTests.m; sourceTree = "<group>"; };
+		EC91435019495B6C008C94F7 /* Number_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Number_6.png; sourceTree = "<group>"; };
+		EC91435119495B6C008C94F7 /* Number_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Number_7.png; sourceTree = "<group>"; };
+		EC91435219495B6C008C94F7 /* Number_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Number_8.png; sourceTree = "<group>"; };
+		EC91435319495B6C008C94F7 /* Number_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Number_9.png; sourceTree = "<group>"; };
+		EC91435419495B6C008C94F7 /* Number_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Number_10.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC8CB524190255370000CB76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8CB52D190255370000CB76 /* CoreGraphics.framework in Frameworks */,
+				EC8CB52F190255370000CB76 /* UIKit.framework in Frameworks */,
+				EC8CB531190255370000CB76 /* SpriteKit.framework in Frameworks */,
+				EC8CB52B190255370000CB76 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8CB54C190255370000CB76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8CB551190255370000CB76 /* XCTest.framework in Frameworks */,
+				EC8CB553190255370000CB76 /* UIKit.framework in Frameworks */,
+				EC8CB552190255370000CB76 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC8CB51E190255360000CB76 = {
+			isa = PBXGroup;
+			children = (
+				EC8CB532190255370000CB76 /* candyCrushClone */,
+				EC8CB556190255370000CB76 /* candyCrushCloneTests */,
+				EC8CB529190255370000CB76 /* Frameworks */,
+				EC8CB528190255370000CB76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC8CB528190255370000CB76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC8CB527190255370000CB76 /* candyCrushClone.app */,
+				EC8CB54F190255370000CB76 /* candyCrushCloneTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC8CB529190255370000CB76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC8CB52A190255370000CB76 /* Foundation.framework */,
+				EC8CB52C190255370000CB76 /* CoreGraphics.framework */,
+				EC8CB52E190255370000CB76 /* UIKit.framework */,
+				EC8CB530190255370000CB76 /* SpriteKit.framework */,
+				EC8CB550190255370000CB76 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC8CB532190255370000CB76 /* candyCrushClone */ = {
+			isa = PBXGroup;
+			children = (
+				EC8CB5661902F5B40000CB76 /* images */,
+				EC8CB53B190255370000CB76 /* AppDelegate.h */,
+				EC8CB53C190255370000CB76 /* AppDelegate.m */,
+				EC8CB53E190255370000CB76 /* Main.storyboard */,
+				EC8CB541190255370000CB76 /* ViewController.h */,
+				EC8CB542190255370000CB76 /* ViewController.m */,
+				EC8CB544190255370000CB76 /* MyScene.h */,
+				EC8CB545190255370000CB76 /* MyScene.m */,
+				EC7B530719096CA90038A6C5 /* MyScene2.h */,
+				EC7B530819096CA90038A6C5 /* MyScene2.m */,
+				EC7B530A19097F0A0038A6C5 /* startScene.h */,
+				EC7B530B19097F0A0038A6C5 /* startScene.m */,
+				EC8CB547190255370000CB76 /* Spaceship.png */,
+				EC8CB549190255370000CB76 /* Images.xcassets */,
+				EC8CB533190255370000CB76 /* Supporting Files */,
+			);
+			path = candyCrushClone;
+			sourceTree = "<group>";
+		};
+		EC8CB533190255370000CB76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC8CB534190255370000CB76 /* candyCrushClone-Info.plist */,
+				EC8CB535190255370000CB76 /* InfoPlist.strings */,
+				EC8CB538190255370000CB76 /* main.m */,
+				EC8CB53A190255370000CB76 /* candyCrushClone-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC8CB556190255370000CB76 /* candyCrushCloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC8CB55C190255370000CB76 /* candyCrushCloneTests.m */,
+				EC8CB557190255370000CB76 /* Supporting Files */,
+			);
+			path = candyCrushCloneTests;
+			sourceTree = "<group>";
+		};
+		EC8CB557190255370000CB76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC8CB558190255370000CB76 /* candyCrushCloneTests-Info.plist */,
+				EC8CB559190255370000CB76 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC8CB5661902F5B40000CB76 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				EC8CB5671902F5D00000CB76 /* numbers */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		EC8CB5671902F5D00000CB76 /* numbers */ = {
+			isa = PBXGroup;
+			children = (
+				EC91435019495B6C008C94F7 /* Number_6.png */,
+				EC91435119495B6C008C94F7 /* Number_7.png */,
+				EC91435219495B6C008C94F7 /* Number_8.png */,
+				EC91435319495B6C008C94F7 /* Number_9.png */,
+				EC91435419495B6C008C94F7 /* Number_10.png */,
+			);
+			name = numbers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC8CB526190255370000CB76 /* candyCrushClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC8CB560190255370000CB76 /* Build configuration list for PBXNativeTarget "candyCrushClone" */;
+			buildPhases = (
+				EC8CB523190255370000CB76 /* Sources */,
+				EC8CB524190255370000CB76 /* Frameworks */,
+				EC8CB525190255370000CB76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = candyCrushClone;
+			productName = candyCrushClone;
+			productReference = EC8CB527190255370000CB76 /* candyCrushClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC8CB54E190255370000CB76 /* candyCrushCloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC8CB563190255370000CB76 /* Build configuration list for PBXNativeTarget "candyCrushCloneTests" */;
+			buildPhases = (
+				EC8CB54B190255370000CB76 /* Sources */,
+				EC8CB54C190255370000CB76 /* Frameworks */,
+				EC8CB54D190255370000CB76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC8CB555190255370000CB76 /* PBXTargetDependency */,
+			);
+			name = candyCrushCloneTests;
+			productName = candyCrushCloneTests;
+			productReference = EC8CB54F190255370000CB76 /* candyCrushCloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC8CB51F190255360000CB76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Rijul Gupta";
+				TargetAttributes = {
+					EC8CB526190255370000CB76 = {
+						DevelopmentTeam = 6835C33SXY;
+					};
+					EC8CB54E190255370000CB76 = {
+						TestTargetID = EC8CB526190255370000CB76;
+					};
+				};
+			};
+			buildConfigurationList = EC8CB522190255360000CB76 /* Build configuration list for PBXProject "candyCrushClone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC8CB51E190255360000CB76;
+			productRefGroup = EC8CB528190255370000CB76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC8CB526190255370000CB76 /* candyCrushClone */,
+				EC8CB54E190255370000CB76 /* candyCrushCloneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC8CB525190255370000CB76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC91435819495B6C008C94F7 /* Number_9.png in Resources */,
+				EC91435619495B6C008C94F7 /* Number_7.png in Resources */,
+				EC91435919495B6C008C94F7 /* Number_10.png in Resources */,
+				EC8CB537190255370000CB76 /* InfoPlist.strings in Resources */,
+				EC8CB54A190255370000CB76 /* Images.xcassets in Resources */,
+				EC91435719495B6C008C94F7 /* Number_8.png in Resources */,
+				EC8CB548190255370000CB76 /* Spaceship.png in Resources */,
+				EC8CB540190255370000CB76 /* Main.storyboard in Resources */,
+				EC91435519495B6C008C94F7 /* Number_6.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8CB54D190255370000CB76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8CB55B190255370000CB76 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC8CB523190255370000CB76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8CB546190255370000CB76 /* MyScene.m in Sources */,
+				EC8CB543190255370000CB76 /* ViewController.m in Sources */,
+				EC8CB53D190255370000CB76 /* AppDelegate.m in Sources */,
+				EC7B530919096CA90038A6C5 /* MyScene2.m in Sources */,
+				EC8CB539190255370000CB76 /* main.m in Sources */,
+				EC7B530C19097F0A0038A6C5 /* startScene.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8CB54B190255370000CB76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8CB55D190255370000CB76 /* candyCrushCloneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC8CB555190255370000CB76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC8CB526190255370000CB76 /* candyCrushClone */;
+			targetProxy = EC8CB554190255370000CB76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC8CB535190255370000CB76 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC8CB536190255370000CB76 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EC8CB53E190255370000CB76 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC8CB53F190255370000CB76 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC8CB559190255370000CB76 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC8CB55A190255370000CB76 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC8CB55E190255370000CB76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC8CB55F190255370000CB76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC8CB561190255370000CB76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Rijul Gupta (6835C33SXY)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "candyCrushClone/candyCrushClone-Prefix.pch";
+				INFOPLIST_FILE = "candyCrushClone/candyCrushClone-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EC8CB562190255370000CB76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Rijul Gupta (6835C33SXY)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "candyCrushClone/candyCrushClone-Prefix.pch";
+				INFOPLIST_FILE = "candyCrushClone/candyCrushClone-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EC8CB564190255370000CB76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/candyCrushClone.app/candyCrushClone";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "candyCrushClone/candyCrushClone-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "candyCrushCloneTests/candyCrushCloneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EC8CB565190255370000CB76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/candyCrushClone.app/candyCrushClone";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "candyCrushClone/candyCrushClone-Prefix.pch";
+				INFOPLIST_FILE = "candyCrushCloneTests/candyCrushCloneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC8CB522190255360000CB76 /* Build configuration list for PBXProject "candyCrushClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8CB55E190255370000CB76 /* Debug */,
+				EC8CB55F190255370000CB76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC8CB560190255370000CB76 /* Build configuration list for PBXNativeTarget "candyCrushClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8CB561190255370000CB76 /* Debug */,
+				EC8CB562190255370000CB76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC8CB563190255370000CB76 /* Build configuration list for PBXNativeTarget "candyCrushCloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8CB564190255370000CB76 /* Debug */,
+				EC8CB565190255370000CB76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC8CB51F190255360000CB76 /* Project object */;
+}
